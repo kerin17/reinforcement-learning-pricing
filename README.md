@@ -1,7 +1,6 @@
 # reinforcement-learning-pricing
-Dynamic pricing strategy using reinforcement learning
+# Dynamic pricing strategy using reinforcement learning
 
-Objective
 The goal is to frame and solve a dynamic pricing problem using two exploration/exploitation strategies. The basic workflow is:
 
 1. Train a Supervised Learning (SL) model on the Environment: Use the two provided datasets to train a SL to predict utilization based on: {'Start Day of the Week', 'Start Month', 'Start Hour', 'Car ID Hash', 'Car Parking Address Postcode', 'Trip Price', 'Hours Duration', 'Booking Advance Hours Duration', and 'Price to Average Price Per Postcode'} features. This model outputs a prediction of utilization rates for different pricing scenarios, which the RL agent can use to predict revenue outcomes. 
