@@ -9,7 +9,7 @@ The goal is to frame and solve a dynamic pricing problem using two exploration/e
 3. Implement the RL Agent: The RL agent uses strategies A/B/N and ε-greedy to explore different pricing actions and learn which strategies yield the highest rewards. Over time, the agent learns the agent learns to optimize its choices that maximize its rewards.
 
 
-### Summary
+### Output, Conclusion, and Summary
 The probability distribution that observed from the environment
 1.	The initial supervised learning model (model_1) achieved R² scores of ~0.20, indicating it captured some underlying patterns in utilization based on features like time, location, and pricing.
 a.	The relatively low R² score indicates the environment's true probability distribution was either too complex and not fully captured by a linear regression model, or was skewed by the limited data that was able to be processed (30/261 cars, due to processing time).
