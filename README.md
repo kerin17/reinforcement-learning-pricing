@@ -1,5 +1,5 @@
 # reinforcement-learning-pricing
-# Dynamic pricing strategy using reinforcement learning
+### Dynamic pricing strategy using reinforcement learning
 
 The goal is to frame and solve a dynamic pricing problem using two exploration/exploitation strategies. The basic workflow is:
 
